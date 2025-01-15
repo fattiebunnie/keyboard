@@ -1,0 +1,149 @@
+(footprint "SW_SPDT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://www.alps.com/products/WebObjects/catalog.woa/E/HTML/Tact/SnapIn/SKHL/SKHLLAA010.html")
+	(tags "ALPS SKHLL low tactile switch")
+	(property "Reference" "SW_SPDT"
+		(at 0.05 -4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1581c153-619a-4b66-a29a-74b87cd242d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW**"
+		(at 0 4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1eff965a-5632-4a0e-acd3-1545e5817dec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5213f700-dc00-471d-b376-0701b24fd0cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91223696-efb9-4d8c-bf56-87ec78536b32")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4688751-677f-4c5f-8e3b-4d779a9bbeb2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.76 2.75)
+		(end 5.75 2.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4716003e-be42-46f2-b15f-a02fa057148e")
+	)
+	(fp_line
+		(start -5.75 -2.75)
+		(end -5.75 2.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de10d213-7948-4407-8dcc-e9865622ddfb")
+	)
+	(fp_line
+		(start -5.75 -2.75)
+		(end 5.75 -2.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8332372-5152-4070-bdf9-01303f3173bf")
+	)
+	(fp_line
+		(start 5.75 2.75)
+		(end 5.75 -2.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c683586b-3007-4f53-9e39-3824fdd2e77d")
+	)
+	(pad "" thru_hole circle
+		(at -7.5 0)
+		(size 3 3)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8c74d850-8193-45de-8cd5-ddd74142294b")
+	)
+	(pad "" thru_hole circle
+		(at 7.5 0)
+		(size 3 3)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5f597bf1-6ab0-4026-83d4-62c314b57098")
+	)
+	(pad "1" thru_hole circle
+		(at -3 -0.05)
+		(size 2.5 2.5)
+		(drill oval 1.9 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d0ac5e2-cf1a-46f6-a8f3-4dea08eeb87d")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill oval 1.9 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d60b0bb2-63e7-43c4-9cf0-fc7f110e568e")
+	)
+	(pad "3" thru_hole circle
+		(at 3 0)
+		(size 2.5 2.5)
+		(drill oval 1.9 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c33012b1-15a9-40bc-81ab-a2b4333cac53")
+	)
+)
