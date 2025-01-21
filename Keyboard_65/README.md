@@ -30,3 +30,17 @@ This keyboard is a 65% Keyboard with a knob and place for 2 screens to go onto
 ### SVG2ShenZhen
 
 [Badgeek's SVG to ShenZhen](https://github.com/badgeek/svg2shenzhen) makes svg into components in kicad.
+
+# Complete build
+
+Soldering Job: 
+
+![bot1](./resources/bot1.jpg)
+
+![bot2](./resources/bot2.jpg)
+
+![top2](./resources/top1.jpg)
+
+![top2](./resources/top2.jpg)
+
+I soldered the pins and then snipped the excess pins off together with some solder so it is as flush as possible and does not leave excess pointy edges that will end up scratching the user (possibly just me idk) in the future.
