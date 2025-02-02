@@ -31,6 +31,10 @@ This keyboard is a 65% Keyboard with a knob and place for 2 screens to go onto
 
 [Badgeek's SVG to ShenZhen](https://github.com/badgeek/svg2shenzhen) makes svg into components in kicad.
 
+### ZMK Firmware
+
+ZMK Firmware was being used because it supported both bluetooth and I2C for display. 
+
 # Complete build
 
 Soldering Job: 
@@ -44,3 +48,10 @@ Soldering Job:
 ![top2](./resources/top2.jpg)
 
 I soldered the pins and then snipped the excess pins off together with some solder so it is as flush as possible and does not leave excess pointy edges that will end up scratching the user (possibly just me idk) in the future.
+
+Build:
+
+![assembly1](./resources/assembly1.jpg)
+
+![assembly2](./resources/assembly2.jpg)
+
